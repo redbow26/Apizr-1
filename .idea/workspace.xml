@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efee0a5-f788-4fb7-ad53-10fbe7704ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/db/models/BeachData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/db/models/LacanauData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/back/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607533831793</updated>
-      <workItem from="1607533832938" duration="5218000" />
+      <workItem from="1607533832938" duration="6442000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: Base react app">
       <created>1607533929617</created>
@@ -64,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607541404570</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit: Back">
+      <created>1607542090903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607542090903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +96,7 @@
     <MESSAGE value="Initial commit: Base react app" />
     <MESSAGE value="feat: Lacanau component" />
     <MESSAGE value="feat: TabCity component (Without API)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: TabCity component (Without API)" />
+    <MESSAGE value="Initial commit: Back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Back" />
   </component>
 </project>
