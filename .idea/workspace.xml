@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efee0a5-f788-4fb7-ad53-10fbe7704ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/src/db/models/BeachData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/db/models/LacanauData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/back/yarn.lock" afterDir="false" />
     </list>
+    <list id="91efe4b0-95bb-4d1c-9102-ee31afe0ca2b" name="feat: mongoose schemas" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,11 +40,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1efee0a5-f788-4fb7-ad53-10fbe7704ffa" name="Default Changelist" comment="" />
+      <changelist id="91efe4b0-95bb-4d1c-9102-ee31afe0ca2b" name="feat: mongoose schemas" comment="" />
       <created>1607533831793</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607533831793</updated>
-      <workItem from="1607533832938" duration="6442000" />
+      <workItem from="1607533832938" duration="11682000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: Base react app">
       <created>1607533929617</created>
@@ -75,7 +75,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607542090903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: mongoose connection and schemas">
+      <created>1607543298423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607543298423</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: mongoose schemas">
+      <created>1607543315338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607543315338</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: mongoose schemas">
+      <created>1607548227820</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607548227820</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +118,8 @@
     <MESSAGE value="feat: Lacanau component" />
     <MESSAGE value="feat: TabCity component (Without API)" />
     <MESSAGE value="Initial commit: Back" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Back" />
+    <MESSAGE value="feat: mongoose connection and schemas" />
+    <MESSAGE value="feat: mongoose schemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mongoose schemas" />
   </component>
 </project>
