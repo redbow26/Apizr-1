@@ -15,7 +15,7 @@ class Lacanau extends Component {
 
     render() {
         return (
-            <div className="Lacanau" style={ { margin: "auto", marginTop: "10%" } }>
+            <div className="Lacanau">
                 <div style={ {width: '50%', float: 'left', align: 'center'} }>
                     <input type="number" min={0} max={100} value={this.state.quality} onChange={this.handleQuality}/>
                 </div>
