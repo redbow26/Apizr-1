@@ -11,27 +11,42 @@ const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json())
 
-//app.get('/beach', (req, res) => {
+// Get all the beach
+app.get('/beach', async(req, res) => {
+    try {
+        const beach = await Beach.find();
+        res.json(beach)
+    } catch (err) {
+        res.json({message: err})
+    }
+});
 
-//});
-
-app.post('/Lacanau', (req, res) => {
+// Submit lacanau data
+app.post('/Lacanau', async (req, res) => {
     const lacanau = new Lacanau({
         quality: req.body.quality
     });
-    lacanau.save()
-        .then(data => res.json(data))
-        .catch(err => res.json( { message: err }));
+
+    try {
+        await lacanau.save();
+        res.json(lacanau);
+    } catch (err) {
+        res.json({message: err})
+    }
 });
 
-app.post('/add/beach', (req, res) => {
+// Add beach (Dev)
+app.post('/add/beach', async (req, res) => {
     const beach = new Beach({
         name: req.body.name,
         quality: req.body.quality
     });
-    beach.save()
-        .then(data => res.json(data))
-        .catch(err => res.json( { message: err }));
+    try {
+        await beach.save();
+        res.json(beach);
+    } catch (err) {
+        res.json({message: err})
+    }
 });
 
 // MongoCB connection
