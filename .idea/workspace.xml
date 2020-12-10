@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1efee0a5-f788-4fb7-ad53-10fbe7704ffa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/back/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Lacanau/Lacanau.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Lacanau/Lacanau.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/TabCity/TabCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/TabCity/TabCity.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607533831793</updated>
-      <workItem from="1607533832938" duration="12396000" />
+      <workItem from="1607533832938" duration="15380000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: Base react app">
       <created>1607533929617</created>
@@ -100,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607548666221</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: beach get route">
+      <created>1607585691888</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607585691888</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +137,7 @@
     <MESSAGE value="feat: mongoose connection and schemas" />
     <MESSAGE value="feat: mongoose schemas" />
     <MESSAGE value="feat: lacanau post route, add beach post route (dev)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lacanau post route, add beach post route (dev)" />
+    <MESSAGE value="feat: beach get route" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: beach get route" />
   </component>
 </project>

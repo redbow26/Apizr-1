@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const Beach = require('./db/schemas/BeachData');
 const Lacanau = require('./db/schemas/LacanauData');
@@ -10,6 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json())
+app.use(cors())
 
 // Get all the beach
 app.get('/beach', async(req, res) => {

@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
         <div className="App">
-            <div style={ { marginTop: "10%", paddingBottom: "10%" } } >
+            <div style={ { marginTop: "10%", paddingBottom: "5%" } } >
                 <Lacanau />
             </div>
             <hr/>
